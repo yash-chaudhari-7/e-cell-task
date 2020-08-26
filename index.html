@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-Cell Task 1</title>
+	<style>
+		.grid-container {
+		    padding: 2rem;
+		}
+		.grid-container > ul {
+		    display: grid;
+		    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+		    grid-gap: 1rem;
+		}
+		.grid-container > ul > li {
+		    position: relative;
+		    border: 2px solid black;
+		    border-radius: .5rem;
+		    max-height: 320px;
+		    background-color: purple;
+		    color: white;
+		    overflow: hidden;
+		}
+		.grid-container > ul > li > h3 {
+		    color: white;
+		    padding: 1rem;
+		    font-size: 1.25rem;
+		}
+		.grid-container > ul > li > p {
+		    font-size: 1rem;
+		    line-height: 1.5;
+		    padding: 1rem 1rem;
+		}
+		@media(max-width: 460px) {
+		    .grid-container > ul {
+		        padding-inline-start: 0px;
+		    }
+		}
+	</style>
+</head>
+
+<body>
+	<div class="grid-container">
+		<ul>
+			<li>
+				<h3>Column 1</h3>
+				<p>A business model describes the rationale of how an organization creates, delivers, and captures value, in economic, social, cultural or other contexts. The process of business model construction and modification is also called business model innovation and forms a part of business strategy.</p>
+			</li>
+			<li>
+				<h3>Column 2</h3>
+				<p>In theory and practice, the term business model is used for a broad range of informal and formal descriptions to represent core aspects of a business, including purpose, business process, target customers, offerings, strategies, infrastructure, organizational structures, sourcing, trading practices, and operational processes and policies including culture.</p>
+			</li>
+			<li>
+				<h3>Column 3</h3>
+				<p>The literature has provided very diverse interpretations and definitions of a business model. A systematic review and analysis of manager responses to a survey defines business models as the design of organizational structures to enact a commercial opportunity. Further extensions to this design logic emphasize the use of narrative or coherence in business model descriptions as mechanisms by which entrepreneurs create extraordinarily successful growth firms.</p>
+			</li>
+		</ul>
+	</div>
+</body>
+
+</html>
